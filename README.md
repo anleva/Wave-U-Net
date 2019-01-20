@@ -4,7 +4,7 @@ Daniel Stoller, Sebastian Ewert and Simon Dixon proposed in [Wave-U-Net](https:/
 
 The architecture is a succession downsamling blocks with convolutional layers, followed by a corresponding upsampling blocks, and with skip connections between the up- and downsampling sequences.
 
-### IMAGE HERE ###
+<< IMAGE HERE >>
 
 The sound tracks used for training is from the [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html), which consits of 150 professionally recorded music tracks. Each track has four separate stems; vocals, drums, bass and other.
 
@@ -51,4 +51,4 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 * Wave-U-Net is based on [Wave-U-Net: A Multi-Scale Neural Network for End-to-End Audio Source Separation](https://arxiv.org/abs/1806.03185), by Daniel Stoller, Sebastian Ewert and Simon Dixon.
-
+* Data is from the [MUSDB18](https://doi.org/10.5281/zenodo.1117372) (or [alt url](https://sigsep.github.io/datasets/musdb.html)) corpus for music separation. Authors: Zafar Rafii, Antoine Liutkus, Fabian-Robert Stöter, Stylianos Ioannis Mimilakis, and Rachel Bittner.
