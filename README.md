@@ -4,7 +4,7 @@ Daniel Stoller, Sebastian Ewert and Simon Dixon proposed in [Wave-U-Net](https:/
 
 The architecture is a succession downsamling blocks with convolutional layers, followed by a corresponding upsampling blocks, and with skip connections between the up- and downsampling sequences.
 
-<< IMAGE HERE >>
+![wave_u_net_overview](https://github.com/anleva/Wave-U-Net/blob/master/img/wave_u_net.jpg)
 
 The training data is from the [MUSDB18 dataset](https://sigsep.github.io/datasets/musdb.html), which consists of 150 professionally recorded music tracks. Each track has four separate stems; vocals, drums, bass and other. There is also the mixed version, where all stems have been merged into one track.
 
