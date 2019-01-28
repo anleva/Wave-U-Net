@@ -32,10 +32,6 @@ The sound source predictions produced by wave_u_net_shallow.py explained around 
 ### Training
 [wave_u_net_shallow](https://github.com/anleva/Wave-U-Net/blob/master/wave_u_net_shallow.py) has around 40m parameters. Training could not be done on my laptop, but was instead done on Google Cloud Platform, using their generous $300 free credit for new accounts.
 
-### Examples
-
-<< To be added >>
-
 ### Prerequisites
 
 See requirements.txt.
